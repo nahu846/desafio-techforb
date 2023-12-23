@@ -1,0 +1,46 @@
+
+<body>
+    <div class="container">
+        <div class="welcome-container">
+            <div class="welcome-text">Bienvenidos a Unicomer</div>
+        </div>
+        <div class="login-container">
+            <form>
+                <div class="login-title">LOGO</div>
+                <div class="login-form">
+                    <app-input-form class="login-form-item" 
+                        [title]="'Nombre de Usuario'"
+                        [placeholder]="'Usuario'"
+                        required
+                        #usuario
+                        ></app-input-form>
+    
+                        <app-input-form class="login-form-item" 
+                        [title]="'Tipo de documento'"
+                        [placeholder]="'DNI'"
+                        required
+                        #dnitype
+                        ></app-input-form>
+
+                    <app-input-form class="login-form-item" 
+                        [title]="'Número de Documento'"
+                        [placeholder]="'Ej: 24xxxxxx'" 
+                        required
+                        #dni
+                        ></app-input-form>
+    
+                    <app-input-form class="login-form-item" 
+                        [title]="'Clave'" 
+                        [placeholder]="'Ingrese su contraseña'"
+                        type="password"
+                        required
+                        #secret
+                        ></app-input-form>
+    
+                    <button type="submit" (click)="register()">Registrar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>

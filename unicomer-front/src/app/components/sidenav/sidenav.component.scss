@@ -1,0 +1,23 @@
+.side-nav {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 250px;
+    height: 80vh;
+    &__logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 40px;
+    }
+    &__list {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        list-style: none;
+        &-item {
+            text-transform:lowercase;
+            color: #999;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.input-form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    &__title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+    }
+    &__input {
+        width: 100%;
+        font-size: 10px;
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        
+    }
+
+}

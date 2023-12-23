@@ -1,0 +1,16 @@
+$fontPath: '/src/assets/fonts/Poppins/Poppins-Regular.ttf';
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('#{$fontPath}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
